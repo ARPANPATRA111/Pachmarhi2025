@@ -18,7 +18,7 @@ body, html {
     font-size:18px
 }
 
-.bgimg-1 {
+.bgimg-1, .bgimg-2 {
    position: relative;
    background-repeat: no-repeat;
    background-size: cover;
@@ -31,4 +31,115 @@ body, html {
    min-height: 100%;
    background-size: cover;
    background-position: center;
+}
+
+.bgimg-2 {
+    background-image: url("jt3.jpg");
+    min-height: 700px;
+    animation: img2 9s infinite; 
+    background-size: cover;
+    background-position: center;
+}
+
+@keyframes img2 {
+    33.33% { background-image: url('jt2.jpg'); }
+    66.66% { background-image: url('jt1.jpg'); } 
+  }
+
+.caption {
+    position: absolute;
+    left: 0;
+    top: 20%;
+    width: 100%;
+    text-align: center;
+    color: #000;
+}
+
+.border {
+    letter-spacing: 10px;
+    background-color:transparent;
+    font-size:50px;
+    color: #f7f7f7;
+}
+
+.data{
+    color:#ddd;
+    background-color:#282E34;
+    text-align:center;
+    padding:50px 80px;
+    text-align: justify;
+}
+
+.dev{
+    position:relative;
+}
+
+h3 {
+    letter-spacing: 5px;
+    text-transform: uppercase;
+    font: 25px "Lato", sans-serif;
+    color: #111;
+}
+
+.indicators {
+    position: absolute;
+    bottom: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+    gap: 10px;
+    /*animation: effect 10s infinite; */
+}
+
+.indicator {
+    width: 15px;
+    height: 15px;
+    background: rgba(255, 255, 255, 0.5);
+    border-radius: 50%;
+}
+
+.indicator:nth-child(1) {
+    animation: changeIndicator1 9s infinite;
+}
+
+.indicator:nth-child(2) {
+    animation: changeIndicator2 9s infinite;
+}
+
+.indicator:nth-child(3) {
+    animation: changeIndicator3 9s infinite;
+}
+
+@keyframes changeIndicator1 {
+    0%, 33.33% {
+        background: rgba(255, 255, 255, 1);
+    }
+    33.34%, 100% {
+        background: rgba(255, 255, 255, 0.5);
+    }
+}
+
+@keyframes changeIndicator2 {
+    0%, 33.33% {
+        background: rgba(255, 255, 255, 0.5);
+    }
+    33.34%, 66.66% {
+        background: rgba(255, 255, 255, 1);
+    }
+    66.67%, 100% {
+        background: rgba(255, 255, 255, 0.5);
+    }
+}
+
+@keyframes changeIndicator3 {
+    0%, 66.66% {
+        background: rgba(255, 255, 255, 0.5);
+    }
+    66.67%, 100% {
+        background: rgba(255, 255, 255, 1);
+    }
+}
+
+.indicator.active {
+    background: rgba(255, 255, 255, 1);
 }
