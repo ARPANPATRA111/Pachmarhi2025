@@ -336,3 +336,58 @@ h3 {
   letter-spacing: 6px;  
   text-shadow: 4px 4px 8px rgba(30, 117, 4, 0.662);
 }
+
+
+@media screen and (min-width: 768px) {
+    body {
+        font-size: 16px;
+    }
+    img {
+        max-width: 100%; 
+        height: auto;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .bgimg-1, .bgimg-2, .bgimg-3, .bgimg-4, .bgimg-5, .bgimg-6, .bgimg-7,
+    .bgimg-8, .bgimg-9, .bgimg-10, .bgimg-11, .bgimg-12, .bgimg-13, .bgimg-14, .bgimg-15, .bgimg-16 {
+        background-attachment: scroll;
+        min-height: 250px;
+        background-size: cover;
+        background-position: center;   
+    }
+
+    img {
+        max-width: 100%;
+        height: auto; 
+        background-size: cover;
+        background-position: center;   
+    }
+    h3 {
+        font-size: 12px !important;
+    }
+    .border{
+        font-size: 20px !important;
+        font-weight: bold !important;
+    }
+    p{
+        font-size:16px !important;
+    }
+    .data{
+        padding: 30px 30px !important;
+    }
+    .capt{
+        padding: 2px 2px !important;
+        letter-spacing: 1px !important;
+        top: 0px;
+    }
+    .end{
+        opacity: 0;
+        font-size: 8px;
+    }
+    .eee{
+        font-size: 8px;
+        opacity: 1;
+    }
+
+}
