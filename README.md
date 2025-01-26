@@ -1,7 +1,8 @@
 # 🏞️ Pachmarhi Tourist Guide
-![ScreenSchot](p.jpg)
 
 🎉 Welcome to the Pachmarhi Tourist Guide 🌐 website! This project is a visually 👀 appealing and informative 📖 guide to Pachmarhi, a charming 🏔️ hill station nestled 🏞️ in the Satpura Range 🗻 of Madhya Pradesh, India 🇮🇳. It showcases Pachmarhi's most popular ⭐ attractions and highlights its natural 🌳 beauty, historical 📜 significance, and cultural 🎭 richness.
+
+![ScreenSchot](p.jpg)
 
 ## 🎯 Features
 
@@ -45,7 +46,7 @@
 
 ## 🔗 Project Link
 
-**Access the project here:- https://arpanpatra111.github.io/Pachmarhi2025/** 
+**Access the project here:- [Pachmarhi-Tourist-Guide](https://arpanpatra111.github.io/Pachmarhi2025/)**
 
 ## 🚀 Future Enhancements
 
@@ -55,7 +56,6 @@
 
 - Include user 👤 reviews 📝 and ratings ⭐ for attractions 🏝️.
 
-<hr>
+---
 
 Explore 🧭 the beauty 🌄 of Pachmarhi through this guide 📖 and immerse 🤿 yourself in its natural 🌳 and cultural 🎭 wonders!
-
